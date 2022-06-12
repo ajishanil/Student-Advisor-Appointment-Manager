@@ -1,0 +1,27 @@
+#loginForm {
+  /* background-image: url("../images/login_background.jpg"); */
+  background-size: cover;
+}
+
+#form {
+  background-color: rgb(255, 255, 255);
+  margin-right: 3%;
+  padding: 2%;
+  min-width: 60vh;
+  border-radius: 5px;
+  border: #891180 solid 2px;
+}
+
+.input:focus {
+  border: 1px solid #891180;
+  box-shadow: none;
+}
+
+#btn-submit {
+  background-color: #891180;
+  border-color: #891180;
+  border-radius: 50px;
+  width: 100px;
+  font-weight: normal;
+  box-shadow: none;
+}

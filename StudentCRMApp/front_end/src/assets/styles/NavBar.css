@@ -1,0 +1,88 @@
+/* Style for navigation top bar */
+
+.active {
+  width: 150px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 600ms;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Entire Top bar container */
+.top-bar {
+  background-color: #815f9a;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Style for the student button. This button is active by default as the first page after login*/
+.btn-student {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Styles for the staff button .This button is not ative and clicking on this will redirect to advisors page*/
+.btn-staff {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Animation for Staff button while hovering */
+/* .btn-staff:hover {
+  border-radius: 10px;
+  transition: 600ms;
+  background-color: #815f9a;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+} */
+
+/* Styles for the logged in user name */
+.user-name {
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.user-name:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+/* Dropdown menu styles for logged in user */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ebebeb;
+  width: 12%;
+  border-radius: 15px;
+  border-bottom: 3px solid rgb(138, 67, 204);
+  border-left: 3px solid rgb(138, 67, 204);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/* Styles for each items inside the dropdown menu */
+.dropdown-content a {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+/* Style changes on hover over Logout item */
+.dropdown-content a:hover:last-child {
+  text-decoration: underline;
+  border-radius: 14px;
+}
+/* Style changes on hover over Profile item */
+.dropdown-content a:hover:first-child {
+  text-decoration: underline;
+  border-radius: 14px;
+}
+/* Styles for profile username hover effect */
+.top-right:hover .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,19 @@
+/* styles for App.js */
+.display {
+  display: none;
+}
+
+/* style for message if screen size is less than 768px */
+
+@media only screen and (max-width: 768px) {
+  #app {
+    display: none;
+  }
+  .display {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}

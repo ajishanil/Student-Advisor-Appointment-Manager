@@ -1,0 +1,12 @@
+#btn-archive {
+  color: red;
+  background-color: #ebebeb;
+  border-color: red;
+  border-radius: 50px;
+  width: 100px;
+  box-shadow: none;
+}
+
+h6 {
+  color: rgb(65, 65, 65);
+}

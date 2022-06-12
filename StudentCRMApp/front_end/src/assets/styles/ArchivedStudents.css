@@ -1,0 +1,17 @@
+
+/* Table container */
+.recent-table {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* Table styles */
+table {
+  cursor: pointer;
+}
+thead {
+  font-size: 18px;
+}
+tr:nth-child(even) {
+  background-color: #f0efef;
+}
+

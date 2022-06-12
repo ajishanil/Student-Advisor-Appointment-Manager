@@ -1,0 +1,16 @@
+hr {
+    margin: 2%;
+    color: grey;
+    border: 0;
+    opacity: 0.3;
+  }
+  
+  #btn-cancel {
+    color: black;
+    background-color: #ebebeb;
+    border-color: #959595;
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: none;
+  }
+  

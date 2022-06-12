@@ -1,0 +1,27 @@
+/* Search bar button styles */
+#btn-submit {
+  background-color: #891180;
+  border-color: #891180;
+  border-radius: 50px;
+  width: 100px;
+  box-shadow: none;
+}
+
+/* Styles for table with recent student conversations */
+
+/* Table container */
+.recent-table {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Table styles */
+table {
+  cursor: pointer;
+}
+thead {
+  font-size: 18px;
+}
+tr:nth-child(even) {
+  background-color: #f0efef;
+}

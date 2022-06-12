@@ -1,0 +1,15 @@
+/* Styles for navigation side bar */
+
+/* Entire side bar container */
+.side-bar {
+  height: 100vh;
+  background-color: #ebebeb;
+  width: 250px;
+  text-align: center;
+}
+
+/* Style for Saskatchewan polytechnic logo inside side bar */
+.side-bar-logo {
+  width: 175px;
+  margin-top: 25px;
+}

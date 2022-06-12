@@ -1,0 +1,18 @@
+#btn-submit {
+  background-color: #891180;
+  border-color: #891180;
+  border-radius: 50px;
+  width: 100px;
+  box-shadow: none;
+}
+
+.buttons {
+  width: 175px !important;
+  bottom: 20px;;
+}
+
+.recordsButtons:hover,
+.recordsButtons:focus {
+  font-weight: bold !important;
+  width: 200px !important;
+}

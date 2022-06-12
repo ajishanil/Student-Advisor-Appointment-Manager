@@ -1,0 +1,30 @@
+/* Search bar button styles */
+#btn-submit {
+    background-color: #891180;
+    border-color: #891180;
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: none;
+  }
+  
+  .fileLink:hover {
+  color: #891180 !important;
+    text-decoration: underline;
+  }
+  
+  /* Table container */
+  .recent-table {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* Table styles */
+  table {
+    cursor: pointer;
+  }
+  thead {
+    font-size: 18px;
+  }
+  tr:nth-child(even) {
+    background-color: #f0efef;
+  }

@@ -1,0 +1,11 @@
+span {
+  cursor: pointer;
+}
+
+.disabled {
+  color: gray;
+}
+
+.file {
+  color: #891180;
+}
